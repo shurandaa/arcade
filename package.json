@@ -40,6 +40,6 @@
 		"#lib/*": "./src/lib/*"
 	},
 	"dependencies": {
-		"@shurandaa/arcade-core": "file:../arcade-core"
+		"@shurandaa/arcade-core": "^1.1.0"
 	}
 }
