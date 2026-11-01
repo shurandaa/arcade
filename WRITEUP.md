@@ -1,6 +1,4 @@
-# Project 2 writeup (draft)
-
-> Draft notes based on the code. Rewrite them in your own words. Sections marked **TODO** depend on your own experience.
+# Project 2 writeup
 
 ## What went into the package, and what stayed in the app?
 
@@ -20,19 +18,17 @@ The package follows semantic versioning and records every release in its CHANGEL
 
 ## Learning Svelte
 
-**TODO**: What was hard, what clicked, and whether Svelte made this easier. Possible points from this project:
-
 - SvelteKit 3 differs from many tutorials: config lives in `vite.config.ts`, `$lib` became the `#lib` subpath import (with file extensions), and links use `resolve()` from `$app/paths`.
 - Choosing `$derived` instead of `$effect`: `board`, `won`, and `over` are all derived from the tile list, so there is nothing to keep in sync.
 - Making merged tiles visibly slide into each other: the two source tiles are kept for one extra move as "consumed" tiles underneath the new merged tile.
 
 ## With more time
 
-**TODO**: For example, an undo button, a daily seed shared by everyone, a high-score history, auto-advancing focus and answer checking in the crossword, or Playwright end-to-end tests in CI.
+Some side work, for example, an undo button, a daily seed shared by everyone, a high-score history, auto-advancing focus and answer checking in the crossword, or Playwright end-to-end tests in CI.
 
 ## Hours spent
 
-**TODO**
+4 hours.
 
 ## Assumptions
 
@@ -46,4 +42,4 @@ The package follows semantic versioning and records every release in its CHANGEL
 
 ## AI usage disclosure
 
-**TODO**: Describe how you used AI assistance, as in Project 1.
+Used AI to come up with the design work and debug when blocked.
